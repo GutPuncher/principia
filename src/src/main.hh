@@ -37,6 +37,8 @@ class pkginfo;
 # endif
 #elif defined(TMS_BACKEND_IOS)
 #define OS_STRING "iOS"
+#elif defined(TMS_BACKEND_HAIKU)
+#define OS_STRING "Haiku"
 #else
 #define OS_STRING "unknown"
 #endif

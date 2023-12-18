@@ -7,4 +7,5 @@ const char *T_B_strings[] = {
     "android",
     "ios",
     "windows",
+    "haiku"
 };
